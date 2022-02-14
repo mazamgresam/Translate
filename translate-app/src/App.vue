@@ -1,5 +1,18 @@
 <template>
-  <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>./components/Translate.vue
+  <div class="bg-gray-200 min-h-screen">
+  <Home />
+  </div>
 </template>
+
+<script>
+import Home from './views/Home.vue'
+
+export default {
+  components: {
+    Home
+}
+}
+</script>
+<style lang="">
+  
+</style>
