@@ -35,6 +35,8 @@ export default {
         .catch(error => {
           console.log(error)
         })
+      } else {
+        this.translate = '' 
       }
     },
     language() {
@@ -46,6 +48,8 @@ export default {
         .catch(error => {
           console.log(error)
         })
+      } else {
+        this.translate = ''
       }
     }
   },
